@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayrollUsingThreads", "EmployeePayrollUsingThreads.csproj", "{10FD5533-57C6-4F51-AA54-9CCDFA17951B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeePayrollUsingThreads", "EmployeePayrollUsingThreads.csproj", "{10FD5533-57C6-4F51-AA54-9CCDFA17951B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayrollThreadUsingTest", "..\EmployeePayrollThreadUsingTest\EmployeePayrollThreadUsingTest.csproj", "{F901AB0C-5FBD-485D-A09E-7693830BD378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeePayrollThreadUsingTest", "..\EmployeePayrollThreadUsingTest\EmployeePayrollThreadUsingTest.csproj", "{F901AB0C-5FBD-485D-A09E-7693830BD378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceCounterDemo", "..\PerformanceCounterDemo\PerformanceCounterDemo.csproj", "{C9120F8C-5CE4-41D0-8532-978282469C7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F901AB0C-5FBD-485D-A09E-7693830BD378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F901AB0C-5FBD-485D-A09E-7693830BD378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F901AB0C-5FBD-485D-A09E-7693830BD378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9120F8C-5CE4-41D0-8532-978282469C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9120F8C-5CE4-41D0-8532-978282469C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9120F8C-5CE4-41D0-8532-978282469C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9120F8C-5CE4-41D0-8532-978282469C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

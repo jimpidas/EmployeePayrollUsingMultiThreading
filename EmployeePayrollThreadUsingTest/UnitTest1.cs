@@ -2,6 +2,8 @@ using EmployeePayrollUsingThreads;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace EmployeePayrollThreadUsingTest
 {
@@ -21,11 +23,17 @@ namespace EmployeePayrollThreadUsingTest
             employeeDetails.Add(new EmployeeDetails(EmployeeID: 7, EmployeeName: "Maria", PhoneNumber: "9999999999", Address: "xyz", Department: "HR", Gender: 'M', City: "abc", BasicPay: 100, TaxablePay: 2, Tax: 3, Country: "India"));
             employeeDetails.Add(new EmployeeDetails(EmployeeID: 8, EmployeeName: "Steve", PhoneNumber: "9999999999", Address: "xyz", Department: "HR", Gender: 'M', City: "abc", BasicPay: 100, TaxablePay: 2, Tax: 3, Country: "India"));
 
+            
+
+
             EmployeePayrollOperation employeePayrollOperations = new EmployeePayrollOperation();
             DateTime startDateTime = DateTime.Now;
             employeePayrollOperations.addEmployeeToPayroll(employeeDetails);
             DateTime stopDateTime = DateTime.Now;
             Console.WriteLine("Duration without thread: " + (stopDateTime - startDateTime));
+            employeePayrollOperations.Display();
+
+
 
             DateTime startDateTimeThread = DateTime.Now;
             employeePayrollOperations.addEmployeeToPayrollWithThread(employeeDetails);
